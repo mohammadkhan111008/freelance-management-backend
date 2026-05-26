@@ -16,7 +16,10 @@ import lombok.RequiredArgsConstructor;
 @RestController
 @RequestMapping("/projects")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {
+    "http://localhost:5173",
+    "https://managefreelancer.netlify.app"
+})
 public class FreelanceProjectController {
 
     private final FreelanceProjectService service;
