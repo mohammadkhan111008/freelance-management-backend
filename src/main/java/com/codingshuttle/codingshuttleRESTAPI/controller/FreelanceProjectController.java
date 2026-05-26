@@ -14,7 +14,7 @@ import com.codingshuttle.codingshuttleRESTAPI.service.FreelanceProjectService;
 import lombok.RequiredArgsConstructor;
 
 @RestController
-@RequestMapping("/api/projects")
+@RequestMapping("/projects")
 @RequiredArgsConstructor
 @CrossOrigin(origins = "http://localhost:5173")
 public class FreelanceProjectController {
